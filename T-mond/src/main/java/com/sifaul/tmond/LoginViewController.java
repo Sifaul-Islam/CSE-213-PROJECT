@@ -24,7 +24,7 @@ public class LoginViewController
 
     @javafx.fxml.FXML
     public void initialize() {
-        selectyourroleCombobox.getItems().addAll("Website Administrator","Logistics and Delivery Team");
+        selectyourroleCombobox.getItems().addAll("Website Administrator","Logistics and Delivery Team","Supply Chain Manager","Finance and Accounting Staff","Marketing Team","Showroom Manager","Human Resource Management","Customer");
     }
 
     @javafx.fxml.FXML

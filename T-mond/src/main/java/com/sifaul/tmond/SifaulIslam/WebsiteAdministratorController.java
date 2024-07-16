@@ -12,7 +12,7 @@ public class WebsiteAdministratorController
     public void initialize() {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void createuseraccountsOnaction(ActionEvent actionEvent) {
     }
 

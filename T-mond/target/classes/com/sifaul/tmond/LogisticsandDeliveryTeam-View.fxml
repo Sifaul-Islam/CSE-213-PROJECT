@@ -7,64 +7,76 @@
 
 <AnchorPane prefHeight="503.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sifaul.tmond.SifaulIslam.LogisticsandDeliveryTeamController">
    <children>
-      <AnchorPane layoutY="-16.0" prefHeight="600.0" prefWidth="290.0" style="-fx-background-color: f6143b;">
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
          <children>
-            <Label layoutX="21.0" layoutY="33.0" prefWidth="250.0" text="Logistics and Delivery Team" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="20.0" />
-               </font>
-            </Label>
-            <Button layoutX="43.0" layoutY="76.0" mnemonicParsing="false" onAction="#viewcustomerordersOnaction" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="131.0" mnemonicParsing="false" onAction="#managecustomerordersOnaction" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="Manage Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="184.0" mnemonicParsing="false" onAction="#newgoal" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="239.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="294.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="349.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="402.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="457.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
-            <Button layoutX="94.0" layoutY="526.0" mnemonicParsing="false" onAction="#logoutOncton" prefHeight="40.0" prefWidth="103.0" style="-fx-background-color: ffffff; -fx-background-radius: 20;" text="Logout" textAlignment="CENTER" textFill="#f6143b">
-               <font>
-                  <Font name="Times New Roman Bold" size="14.0" />
-               </font>
-            </Button>
+            <AnchorPane layoutY="-17.0" prefHeight="503.0" prefWidth="659.0" />
+            <AnchorPane prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <AnchorPane prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <AnchorPane prefHeight="584.0" prefWidth="748.0">
+                           <children>
+                              <AnchorPane layoutY="-16.0" prefHeight="600.0" prefWidth="327.0" style="-fx-background-color: f6143b;">
+                                 <children>
+                                    <Label layoutX="12.0" layoutY="32.0" prefHeight="73.0" prefWidth="304.0" text="Logistics and Delivery Team" textAlignment="RIGHT" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                    <Button layoutX="62.0" layoutY="132.0" mnemonicParsing="false" onAction="#edituseraccountsOnaction" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20; -fx-background-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="183.0" mnemonicParsing="false" onAction="#newgoal" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="240.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="294.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="349.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="402.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="62.0" layoutY="457.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="204.0" style="-fx-background-color: f6143b; -fx-border-color: ffffff; -fx-border-width: 2; -fx-border-radius: 20;" text="View Customer Orders" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="112.0" layoutY="526.0" mnemonicParsing="false" onAction="#logoutOncton" prefHeight="40.0" prefWidth="103.0" style="-fx-background-color: ffffff; -fx-background-radius: 20;" text="Logout" textAlignment="CENTER" textFill="#f6143b">
+                                       <font>
+                                          <Font name="Times New Roman Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                              <Label fx:id="welcomeLabel" layoutX="374.0" layoutY="187.0" prefHeight="194.0" prefWidth="273.0" text="Welcome User" textAlignment="CENTER" textFill="#f6143b" wrapText="true">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="64.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
-      <Label fx:id="welcomeLabel" layoutX="343.0" layoutY="215.0" prefHeight="155.0" prefWidth="263.0" text="Welcome User" textAlignment="CENTER" textFill="#f6143b" wrapText="true">
-         <font>
-            <Font name="Times New Roman Bold" size="64.0" />
-         </font>
-      </Label>
    </children>
 </AnchorPane>

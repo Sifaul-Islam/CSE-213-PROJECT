@@ -16,15 +16,19 @@ public class LogisticsandDeliveryTeamController
     public void logoutOncton(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void managecustomerordersOnaction(ActionEvent actionEvent) {
     }
 
-    @javafx.fxml.FXML
+    @Deprecated
     public void viewcustomerordersOnaction(ActionEvent actionEvent) {
     }
 
     @javafx.fxml.FXML
     public void newgoal(ActionEvent actionEvent) {
+    }
+
+    @javafx.fxml.FXML
+    public void edituseraccountsOnaction(ActionEvent actionEvent) {
     }
 }
