@@ -5,4 +5,6 @@ module com.sifaul.tmond {
 
     opens com.sifaul.tmond to javafx.fxml;
     exports com.sifaul.tmond;
+    exports com.sifaul.tmond.SifaulIslam;
+    opens com.sifaul.tmond.SifaulIslam to javafx.fxml;
 }

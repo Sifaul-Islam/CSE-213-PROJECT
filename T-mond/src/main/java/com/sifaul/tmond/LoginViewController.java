@@ -10,6 +10,8 @@ public class LoginViewController
     private TextField UsernameTextfield;
     @javafx.fxml.FXML
     private PasswordField Passwordfield;
+    @javafx.fxml.FXML
+    private ComboBox selectyourroleCombobox;
 
     @javafx.fxml.FXML
     public void initialize() {
